@@ -1,0 +1,89 @@
+h1 {
+    color: rgb(37, 114, 190);
+    text-decoration: underline;
+    margin-left: 4%;
+    margin-top: 1vw;
+    font-size: 3rem;
+    width: 56%;
+}
+.item_one {
+    position: relative;
+    margin-top: 3vw;
+    width: 100%;
+    height: 100%;    
+}
+.second__header {
+    position: relative;
+    left: 4%;
+    top: 0;
+    width: 56%;
+}
+
+.picture {
+    position: absolute;
+    width: auto;
+    right: 4%;
+    top: 0;
+    height: auto;
+    max-height: 100%;
+    max-width: 36%;
+}
+
+.item_x {
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 4%;
+}
+
+h2 {
+    font-style: italic;
+    color: rgb(37, 114, 190);
+    font-size: 2rem;
+}
+
+h3 {
+    color: rgb(37, 114, 190);
+    font-size: 1.4rem;
+}
+
+.ul_credit {
+    font-size: 1.15rem;
+}
+
+.li_credit {
+    margin-bottom: 3%;
+    list-style: none;
+}
+
+.li_credit::before {
+    content: "\1F7CD";
+}
+
+.btn::after {
+    content: "\1F81B";
+}
+
+.my_button {
+    text-align: center;    
+}
+
+.btn {
+    height: 5vw;
+    width: 25vw;
+    font-size: 2vw;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+.closing {
+    color: darkblue;
+    text-align: center;
+}
+
+.closing-h3 {
+    color: darkblue;
+}
+
+
+
